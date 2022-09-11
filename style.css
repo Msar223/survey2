@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(5, 53, 99);
+  color: white;
+  font-family:Gill Sans, sans-serif;
+  margin: 0px;
+  padding:10px;
+}
+
+#time, #main {
+  text-align:center; 
+  animation-name: color;
+  animation-duration: 2s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+#name, #age, #email, #dropdown, #dropdowns, #submit-button{
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+#submit-button {
+  background-color:rgb(0, 180, 50);
+  color: white;
+  font-size: 20px;
+  }
+  
+#head {
+  background-image: url(../images/sur1.jpg);
+  background-repeat:no-repeat;
+  margin: 0px;
+  padding: 20px;
+  padding-top: 30px;
+  opacity: 0.5;
+  
+}
+  
+
+@keyframes color {
+0% { 
+  background: rgb(0, 100, 50);
+  transform: translate(0px, 0px);
+  }
+50% {
+  background: rgb(10, 100, 250);
+  transform: translate(5px, 5px);
+}
+100% { 
+  background:rgb(230, 180, 50);
+  transform: translate(10px, 10px);
+  }
+}
