@@ -24,6 +24,9 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
+form {
+  font-size: 16px;
+}
 
 #name, #age, #email, #dropdown, #dropdowns, #submit-button{
   width: 100%;
