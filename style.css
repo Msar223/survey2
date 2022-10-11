@@ -24,19 +24,19 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
-form {
-  font-size: 16px;
-}
+
 
 #name, #age, #email, #dropdown, #dropdowns, #submit-button{
   width: 100%;
   box-sizing: border-box;
   height: 40px;
   border-radius: 5px;
+  font-size: 18px;
 }
 textarea {
   width: 100%;
   box-sizing: border-box;
+  font-size:18px;
 }
 #submit-button {
   background-color:rgb(0, 180, 50);
